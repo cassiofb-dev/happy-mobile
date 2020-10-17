@@ -2,7 +2,7 @@
   "expo": {
     "name": "happy-mobile",
     "slug": "happy-mobile",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,7 +16,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.cassiotest.happy",
+      "versionCode": 1
+    },
     "ios": {
+      "bundleIdentifier": "com.cassiotest.happy",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "web": {
